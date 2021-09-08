@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1AF;
+    --secondary-color: #0a0c53;
+    --tertiary-color: #e3fbff;
+}
+
+body {
+    font-size: 2em;
+    font-family: monospace;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+
+#typeMode {
+    color: var(--primary-color);
+}
